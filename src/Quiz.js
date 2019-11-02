@@ -42,3 +42,5 @@ class Quiz extends Component {
 }
 
 export default Quiz;
+
+// linear-gradient(180deg,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%),linear-gradient(180deg,rgba(0,0,0,0.2) 0%,transparent 100%)

@@ -1,8 +1,39 @@
+.App{
+  min-height: 100vh;
+  width: 100%;
+  background: url(/assets/imgs/quizz.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+
 .QuizQuestion {
   display: flex;
   justify-content: center;
   font-size: 2em;
   text-align: center;
+
+  position: relative;
+  max-width: 500px;
+  min-width: 300px;
+  min-height: 300px;
+  background: rgba(255, 255, 255, 0.82);
+  border-radius: 20px;
+  box-shadow: 0 0 20px black;
+  padding: 10px;
 }
 .QuizEnd {
   display: flex;
@@ -25,10 +56,26 @@ ul {
   justify-content: center;
   text-align: center;
 }
+.buttons ul {
+  display: inline-flex;
+}
+.buttons ul li{
+  list-style: none;
+  margin: 0 5px;
+}
 button {
   margin: 0.6em auto;
   font-size: 1.5em;
   display: block;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 0 10px #0000006e;
+  background: #8a5dd0;
+  color: white;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
 }
 .error {
   color: red;
