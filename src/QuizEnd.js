@@ -8,7 +8,7 @@ class QuizEnd extends Component {
 
 	render(){
 		return(
-			<div>
+			<div className="QuizEnd">
 				<img src="/assets/imgs/checksuccess.png" alt="Submit Success" />
 				<p>Thanks for playing!</p>
 				<a 

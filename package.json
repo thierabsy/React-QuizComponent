@@ -1,6 +1,7 @@
 {
   "name": "build-a-quiz-component-with-react",
   "version": "0.1.1",
+  "homepage": "http://thierabsy.github.io/React-QuizComponent",
   "private": true,
   "dependencies": {
     "react": "16.2.0",
